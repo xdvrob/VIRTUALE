@@ -12,6 +12,6 @@ RUN apt-get install -y python-numpy && \
 WORKDIR /app
 
 # Scarica il file virtuale.py direttamente da GitHub
-RUN curl -o prova.py https://raw.githubusercontent.com/xdvrob/VIRTUALE/main/prova.py
+RUN curl -o virtuale.py https://raw.githubusercontent.com/xdvrob/VIRTUALE/main/virtuale.py
 # Specifica il comando di avvio del programma
-CMD ["python", "prova.py"]
+CMD ["python", "virtuale.py"]
