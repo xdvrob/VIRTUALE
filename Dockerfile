@@ -4,8 +4,7 @@ FROM python:3.9
 RUN apt-get update
 RUN apt-get install -y build-essential
 RUN apt-get install -y python-dev
-    apt-get install -y python-scipy
-
+  
 # Imposta la directory di lavoro all'interno dell'immagine
 WORKDIR /app
 
