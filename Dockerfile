@@ -8,7 +8,7 @@ WORKDIR /app
 RUN curl -o virtuale.py https://raw.githubusercontent.com/xdvrob/VIRTUALE/main/virtuale.py
 
 # Installa le dipendenze del programma Python
-RUN pip install le-tue-dipendenze
+RUN pip install requirements.txt
 
 # Specifica il comando di avvio del programma
 CMD ["python", "virtuale.py"]
