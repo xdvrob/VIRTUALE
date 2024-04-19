@@ -5,7 +5,6 @@ FROM python:3.9
 WORKDIR /app
 
 # Scarica il file virtuale.py direttamente da GitHub
-RUN curl -o virtuale.py https://raw.githubusercontent.com/xdvrob/VIRTUALE/main/virtuale.py
-
+RUN curl -o prova.py https://raw.githubusercontent.com/xdvrob/VIRTUALE/main/prova.py
 # Specifica il comando di avvio del programma
-CMD ["python", "virtuale.py"]
+CMD ["python", "prova.py"]
